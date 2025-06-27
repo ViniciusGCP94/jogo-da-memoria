@@ -1,5 +1,5 @@
 # Jogo da Memória
-![Imagem do Jogo da Memória](/assets/images/projeto-image.png)
+![Imagem do Jogo da Memória](/assets/images/Jogo-da-Memória_finish.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE.txt)
 
