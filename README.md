@@ -56,13 +56,14 @@ Para executar o jogo localmente, siga os passos abaixo:
 2. Clique nas cartas para virá-las e tente encontrar os pares.
 3. O jogo termina quando todos os pares forem encontrados.
 
-## 
-
 ## Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 ## Licença
 Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
+
 ## Contato
-Para mais informações, entre em contato pelo e-mail: seu-email@example.com
+Você pode me encontrar nas redes sociais:
+- LinkedIn : [Vinícius Pereira](https://www.linkedin.com/in/vinicius-gcp/)
+- Email : [Vinícius Pereira](mailto:vinniegcp@gmail.com)
