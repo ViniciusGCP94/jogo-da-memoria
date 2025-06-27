@@ -1,37 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/png" sizes="16x16" rel="icon" href="./assets/images/icons8-brain-16.png">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Jogo da Memória</title>
 </head>
 <body>
-     <div class="toggle-switch">
-        <span class="toggle-label">Música</span>
-        <input type="checkbox" id="musicToggle" checked>
-        <label for="musicToggle"></label>
-    </div>
-    <div class="container">
-        <h2>Jogo da Memória</h2>
-        <div class="game"></div>
-        <button class="reset" onclick="window.location.reload()">Reset Game</button>
-    </div>
-    <script>
-        const musicToggle = document.getElementById('musicToggle');
-        let audio = new Audio('./assets/music/background-music.mp3'); // Path to your music file
-        audio.loop = true;
-        audio.play();
-
-        musicToggle.addEventListener('change', () => {
-            if (musicToggle.checked) {
-                audio.play();
-            } else {
-                audio.pause();
-            }
-        });
-    </script>
+    <div class="main__container">
+        <div class="toggle-switch">
+            <div class="toggle-texts">
+                <span class="toggle-label">Música</span>
+                <span class="music-name">🎵 Buddy - Bensound</span>
+            </div>
+            <input type="checkbox" id="musicToggle" checked>
+            <label for="musicToggle"></label>
+        </div>
+        <div class="container__game">
+            <h2>Jogo da Memória</h2>
+            <div class="game"></div>
+            <button class="reset" onclick="window.location.reload()">Reset Game</button>
+        </div>
+    </div>   
+    <audio id="music" src="./assets/sounds/buddy.mp3" loop></audio>
     <script defer src="./assets/scripts/engine.js"></script>
 </body>
 </html>
